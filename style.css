@@ -1,0 +1,159 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap');
+
+*{
+	padding: 0;
+	margin: 0;
+	list-style: none;
+	text-decoration: none;
+	font-family: 'Roboto', sans-serif;
+}
+
+html {
+	scroll-behavior: smooth;
+}
+
+body{}
+
+header{}
+
+.container{
+	max-width: 1200px;
+	margin: 0 auto;
+	display: flex;
+	justify-content: space-between;
+	padding: 30px 0 0 0;
+}
+.header-text{
+	font-weight: 400;
+	font-size: 13px;
+	line-height: 15px;
+	letter-spacing: 1.4px;
+	text-transform: uppercase;
+}
+.header-text a{
+	color: #000000;
+}
+.header-text span{
+	padding-right: 10px;	
+}
+.header-text span:last-of-type{
+	padding-right: 0;
+}
+
+/* main */
+.main{
+	background: url(./img/mainphoto.png) no-repeat;
+	background-size: 100%;
+	margin: 30px 0 0 0;
+}
+.container-second{
+	max-width: 1200px;
+	margin: 0 auto;
+	padding: 190px 500px 270px 498px;
+	text-align: center;
+}
+.container-second h2{
+	font-weight: 400;
+	font-size: 43px;
+	line-height: 46px;
+	color: #FFFFFF;
+}
+.container-second h4{
+	font-weight: 400;
+	font-size: 15px;
+	line-height: 18px;
+	letter-spacing: 0.8px;
+	color: #FFFFFF;
+	padding: 12px 0 28px 0;
+}
+.container-second a{
+	font-weight: 400;
+	font-size: 13px;
+	line-height: 15px;
+	letter-spacing: 1.4px;
+	text-transform: uppercase;
+	color: #FFFFFF;
+}
+
+/* design */
+.title{
+	max-width: 1200px;
+	margin: 0 auto;
+}
+.title h2{
+	font-weight: 400;
+	font-size: 43px;
+	line-height: 58px;
+	text-align: center;
+	color: #000000;
+	padding: 80px 0 0 0;
+}
+.title h4{
+	font-weight: 400;
+	font-size: 14px;
+	line-height: 24px;
+	text-align: center;
+	letter-spacing: 0.8px;
+	color: #A0A0A0;
+	padding: 23px 0 0 0;
+}
+.title h5{
+	font-weight: 400;
+	font-size: 13px;
+	line-height: 21px;
+	text-align: center;
+	letter-spacing: 1.4px;
+	text-transform: uppercase;
+	color: #000000;
+	padding: 26px 0 80px 0;
+}
+.design-container{
+	display: flex;
+	justify-content: space-around;
+}
+.container-desk{
+	text-align: center;
+}
+.container-desk h3{
+	padding: 48px 0 0 0;
+}
+
+/* product */
+.product-block{
+	display:flex;
+	justify-content: space-around;
+}	
+.block p{
+	font-weight: 400;
+	font-size: 13px;
+	line-height: 21px;
+	letter-spacing: 0.7px;
+	color: #A0A0A0;
+	padding: 0 0 10px 0;
+}
+
+@media screen and (max-width: 1150px){
+	.header-text{
+		padding: 0 20px;
+	}
+	.container-second{
+		padding: 50px 0 30px 0;
+	}
+
+	.container-second{
+		text-align: center;
+	}
+	.design-container{
+		flex-wrap: wrap;
+	}
+	.design-container img{
+		padding: 0 10px;
+	}
+	.design-container h5{
+		padding: 0 0 10px 0;
+	}
+
+	.product-block{
+		flex-wrap: wrap;
+	}
+}
